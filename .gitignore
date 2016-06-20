@@ -1,0 +1,6 @@
+.cache
+.coverage.*
+htmlcov/
+.tox/
+*.pyc
+.coverage
