@@ -1,6 +1,6 @@
 # SimpleFIN 2 Ledger
 
-sfin2ledger is a command line utility to convert [SimpleFIN account data](https://www.simplefin.org/protocol.html) to a format suitable for [Ledger](http://ledger-cli.org/index.html).
+sfin2ledger is a command line utility for converting [SimpleFIN account data](https://www.simplefin.org/protocol.html) into a format suitable for [Ledger](http://ledger-cli.org/index.html).
 
 ## Installation
 
@@ -25,4 +25,27 @@ Get some data in ledger format (do this daily or whatever):
 
 ```bash
 curl "$(cat /tmp/access_url)/accounts" | sfin2ledger
+```
+
+which produces something like:
+
+```
+2016/06/20 Gas Station
+    Expenses:UNKNOWN                  $44.37
+    Assets:SimpleFIN Demo 1 Savings
+
+
+2016/06/20 Gas Station
+    Expenses:UNKNOWN                   $4.82
+    Assets:SimpleFIN Demo 1 Checking
+
+
+2016/06/20 Good Person Reward
+    Expenses:UNKNOWN                  $19.72
+    Assets:SimpleFIN Demo 1 Savings
+
+
+2016/06/20 Good Person Reward
+    Assets:SimpleFIN Demo 1 Checking  $41.01
+    Income:UNKNOWN
 ```
