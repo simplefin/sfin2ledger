@@ -1,6 +1,8 @@
 # SimpleFIN 2 Ledger
 
-sfin2ledger is a command line utility for converting [SimpleFIN account data](https://www.simplefin.org/protocol.html) into a format suitable for [Ledger](http://ledger-cli.org/index.html).
+SimpleFIN is a data format/protocol for getting read-only access to your bank account information.
+
+`sfin2ledger` is a command line utility for converting [SimpleFIN account data](https://www.simplefin.org/protocol.html) into a format suitable for [Ledger](http://ledger-cli.org/index.html).
 
 ## Installation
 
